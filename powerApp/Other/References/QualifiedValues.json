@@ -1,0 +1,92 @@
+{
+  "QualifiedValues": [
+    {
+      "Kind": "bd4e9506-9ea2-e903-94e6-933342838a8d_sharepointsite_forms",
+      "Namespace": "SharePoint Sites (Forms)",
+      "Values": {
+        "Information": "ba6522af-e71b-df11-aa01-00155d2a9006"
+      }
+    },
+    {
+      "Kind": "bd4e9506-9ea2-e903-94e6-933342838a8d_systemuser_forms",
+      "Namespace": "Users (Forms)",
+      "Values": {
+        "Application User": "d26924ef-4d80-46f7-ab1d-e6ae80a54ce8",
+        "Information": "094fb08a-77bb-49e0-b7ea-8dbddfd01294",
+        "User": "c2cd9e55-d4b4-4b55-9951-16ead79643e5",
+        "User form – Business": "c2413504-7eb2-4c59-a087-95d819866114",
+        "User Hierarchy Tile Form": "c68d6c09-d7a7-4959-8d0f-44b8cff9b452"
+      }
+    },
+    {
+      "Kind": "bd4e9506-9ea2-e903-94e6-933342838a8d_crd5b_usertable_forms",
+      "Namespace": "UserTables (Forms)",
+      "Values": {
+        "Information": "8f2e5347-fd2f-4b3f-b7c6-9924191a5425"
+      }
+    },
+    {
+      "Kind": "default.cds_sharepointsite_forms",
+      "Namespace": "SharePoint Sites (Forms)1",
+      "Values": {
+        "Information": "ba6522af-e71b-df11-aa01-00155d2a9006"
+      }
+    },
+    {
+      "Kind": "default.cds_crd5b_usertable_forms",
+      "Namespace": "UserTables (Forms)1",
+      "Values": {
+        "Information": "8f2e5347-fd2f-4b3f-b7c6-9924191a5425"
+      }
+    },
+    {
+      "Kind": "bd4e9506-9ea2-e903-94e6-933342838a8d_sharepointsite_forms",
+      "Namespace": "SharePoint Sites (Forms)11",
+      "Values": {
+        "Information": "ba6522af-e71b-df11-aa01-00155d2a9006"
+      }
+    },
+    {
+      "Kind": "bd4e9506-9ea2-e903-94e6-933342838a8d_crd5b_usertable_forms",
+      "Namespace": "UserTables (Forms)11",
+      "Values": {
+        "Information": "8f2e5347-fd2f-4b3f-b7c6-9924191a5425"
+      }
+    },
+    {
+      "Kind": "default.cds_sharepointsite_forms",
+      "Namespace": "SharePoint Sites (Forms)2",
+      "Values": {
+        "Information": "ba6522af-e71b-df11-aa01-00155d2a9006"
+      }
+    },
+    {
+      "Kind": "default.cds_sharepointsite_forms",
+      "Namespace": "SharePoint Sites (Forms)3",
+      "Values": {
+        "Information": "ba6522af-e71b-df11-aa01-00155d2a9006"
+      }
+    },
+    {
+      "Kind": "default.cds_sharepointsite_forms",
+      "Namespace": "SharePoint Sites (Forms)4",
+      "Values": {
+        "Information": "ba6522af-e71b-df11-aa01-00155d2a9006"
+      }
+    },
+    {
+      "Kind": "default.cds_sharepointsite_forms",
+      "Namespace": "SharePoint Sites (Forms)5",
+      "Values": {
+        "Information": "ba6522af-e71b-df11-aa01-00155d2a9006"
+      }
+    },
+    {
+      "Kind": "default.cds_sharepointsite_forms",
+      "Namespace": "SharePoint Sites (Forms)6",
+      "Values": {
+        "Information": "ba6522af-e71b-df11-aa01-00155d2a9006"
+      }
+    }
+  ]
+}

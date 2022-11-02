@@ -1,0 +1,9 @@
+App As appinfo:
+    BackEnabled: =false
+    OnStart: |-
+        =Set(blnLogin,false);
+        Set(showGrpLogin,true);
+        Set(showGrpErrorMsg,false);
+        Set(strUserName,Blank());
+    StartScreen: =
+

@@ -1,0 +1,30 @@
+{
+  "fd1a3bb7-2f1f-4485-933e-bb97af63c6d2": {
+    "connectionParameters": {
+      "sku": "Enterprise"
+    },
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "SharePoint",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1607/1.0.1607.3068/sharepointonline/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_sharepointonline",
+      "parameterHints": {},
+      "parameterHintsV2": {}
+    },
+    "datasets": {
+      "https://dotline365thai.sharepoint.com/sites/msteams_3ac0b7": {
+        "dataSources": {
+          "Users": {
+            "tableName": "3e4a1e03-3dbe-4bcf-8fc4-a740bde06f57"
+          }
+        }
+      }
+    },
+    "dataSources": [
+      "Users"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "fd1a3bb7-2f1f-4485-933e-bb97af63c6d2"
+  }
+}

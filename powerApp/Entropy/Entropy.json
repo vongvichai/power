@@ -1,0 +1,120 @@
+{
+  "ComponentIndexes": {},
+  "ControlUniqueGuids": {},
+  "ControlUniqueIds": {
+    "App": 1,
+    "btnClose": 17,
+    "btnLogin": 10,
+    "grpErrorMsg": 20,
+    "grpLogin": 19,
+    "grpLogout": 21,
+    "icoLogout": 9,
+    "Icon2": 16,
+    "Icon3": 8,
+    "imgBackground": 14,
+    "imgLogo": 6,
+    "Label1": 4,
+    "Label1_1": 18,
+    "Label2": 15,
+    "Label3": 5,
+    "lblUserName": 7,
+    "MainScreen": 3,
+    "Rectangle1": 13,
+    "txtPassword": 12,
+    "txtUserName": 11
+  },
+  "FunctionParamsInvariantScripts": {},
+  "FunctionParamsInvariantScriptsOnInstances": {},
+  "HeaderLastSavedDateTimeUTC": "11/02/2022 04:45:28",
+  "IsLegacyComponentAllowGlobalScopeCase": false,
+  "LocalConnectionIDReferences": {
+    "fd1a3bb7-2f1f-4485-933e-bb97af63c6d2": "\"/providers/microsoft.powerapps/apis/shared_sharepointonline/connections/be1e49f480454a01a33402ffd826599a\""
+  },
+  "LocalDatabaseReferencesAsEmpty": false,
+  "LocalResourceFileNames": {
+    "320cb1cd-6dd8-47a0-acaa-0822c8a4c22c-13": "cdabf1f7-f4fc-4edd-b5d1-255ce5bed332.jpg",
+    "yss-logo.becfd43": "fa7f04c9-fe0d-490f-92cf-43712fe067ef.png"
+  },
+  "LocalResourceRootPaths": {
+    "320cb1cd-6dd8-47a0-acaa-0822c8a4c22c-13": "https://docserverpwaprodseas.blob.core.windows.net/15d08a96-a17f-40e0-9335-9e871dde1961-1/resource/Assets0Images0cdabf1f7-f4fc-4edd-b5d1-255ce5bed332.jpg?sv=2017-04-17&sr=b&sig=cZpD4VTPwYRK1tvoSzFwWySOC%2B7d93laYTgX2qO8XDg%3D&spr=https&se=2022-11-03T04%3A26%3A46Z&sp=r",
+    "yss-logo.becfd43": "https://docserverpwaprodseas.blob.core.windows.net/15d08a96-a17f-40e0-9335-9e871dde1961-1/resource/Assets0Images0fa7f04c9-fe0d-490f-92cf-43712fe067ef.png?sv=2017-04-17&sr=b&sig=CHNX2Tahkon2pegkbMAX2yXq1jhuTiesZe9rz2R4WSw%3D&spr=https&se=2022-11-03T04%3A26%3A46Z&sp=r"
+  },
+  "OrderComponentMetadata": {},
+  "OrderComponentTemplate": {},
+  "OrderDataSource": {
+    "Users": 0
+  },
+  "OrderGroupControls": {
+    "grpErrorMsg": {
+      "btnClose": 3,
+      "Icon2": 2,
+      "Label2": 0,
+      "Rectangle1": 1
+    },
+    "grpLogin": {
+      "btnLogin": 2,
+      "txtPassword": 1,
+      "txtUserName": 0
+    },
+    "grpLogout": {
+      "icoLogout": 2,
+      "Icon3": 1,
+      "lblUserName": 0
+    }
+  },
+  "OrderPcfTemplate": {},
+  "OrderTemplate": {},
+  "OrderXMLTemplate": {
+    "button": 3,
+    "icon": 2,
+    "image": 1,
+    "label": 0,
+    "rectangle": 5,
+    "text": 4
+  },
+  "PublishOrderIndices": {
+    "App": 0,
+    "btnClose": 16,
+    "btnLogin": 7,
+    "grpErrorMsg": 12,
+    "grpLogin": 9,
+    "grpLogout": 4,
+    "icoLogout": 6,
+    "Icon2": 15,
+    "Icon3": 5,
+    "imgBackground": 13,
+    "imgLogo": 2,
+    "Label1": 0,
+    "Label1_1": 17,
+    "Label2": 14,
+    "Label3": 1,
+    "lblUserName": 3,
+    "MainScreen": 0,
+    "Rectangle1": 11,
+    "txtPassword": 10,
+    "txtUserName": 8
+  },
+  "ResourcesJsonIndices": {
+    "Image-320cb1cd-6dd8-47a0-acaa-0822c8a4c22c-13": 1,
+    "Image-SampleImage": 2,
+    "Image-yss-logo.becfd43": 0
+  },
+  "RuleScreenIdWithoutScreen": {},
+  "TemplateVersions": {},
+  "VolatileProperties": {
+    "AnalysisLoadTime": 0.2680485,
+    "ControlCount": {
+      "button": 2,
+      "group": 3,
+      "icon": 3,
+      "image": 2,
+      "label": 5,
+      "rectangle": 1,
+      "screen": 1,
+      "text": 2
+    },
+    "DeserializationLoadTime": 1.1710651,
+    "ErrorCount": 0
+  },
+  "WasLocalDatabaseReferencesEmpty": true
+}
