@@ -25,7 +25,7 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "11/02/2022 04:45:28",
+  "HeaderLastSavedDateTimeUTC": "11/02/2022 04:46:30",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "fd1a3bb7-2f1f-4485-933e-bb97af63c6d2": "\"/providers/microsoft.powerapps/apis/shared_sharepointonline/connections/be1e49f480454a01a33402ffd826599a\""
@@ -75,9 +75,9 @@
   "PublishOrderIndices": {
     "App": 0,
     "btnClose": 16,
-    "btnLogin": 7,
+    "btnLogin": 8,
     "grpErrorMsg": 12,
-    "grpLogin": 9,
+    "grpLogin": 7,
     "grpLogout": 4,
     "icoLogout": 6,
     "Icon2": 15,
@@ -92,7 +92,7 @@
     "MainScreen": 0,
     "Rectangle1": 11,
     "txtPassword": 10,
-    "txtUserName": 8
+    "txtUserName": 9
   },
   "ResourcesJsonIndices": {
     "Image-320cb1cd-6dd8-47a0-acaa-0822c8a4c22c-13": 1,
