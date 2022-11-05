@@ -14,19 +14,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Screen_Home.icoLogout.AccessibleLabel"
+                  "fullyQualifiedName": "Screen_Register.Form_Register.UserName_DataCard1.DCV_User.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Screen_Home.icoLogout.AccessibleLabel",
+                  "fullyQualifiedName": "Screen_Register.Form_Register.UserName_DataCard1.DCV_User.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Screen_Home",
-                "type": "Screen_Home.icoLogout"
+                "module": "Screen_Register",
+                "type": "Screen_Register.Form_Register.UserName_DataCard1.DCV_User"
               }
             }
           ],
@@ -44,19 +44,79 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Screen_Home.icoLogout.TabIndex"
+                  "fullyQualifiedName": "Screen_Register.Form_Register.Password_DataCard1.DataCardValue2.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Screen_Home.icoLogout.TabIndex",
+                  "fullyQualifiedName": "Screen_Register.Form_Register.Password_DataCard1.DataCardValue2.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Screen_Register",
+                "type": "Screen_Register.Form_Register.Password_DataCard1.DataCardValue2"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen_Register.Form_Register.Attachments_DataCard1.DCV_Attachfile.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen_Register.Form_Register.Attachments_DataCard1.DCV_Attachfile.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Screen_Register",
+                "type": "Screen_Register.Form_Register.Attachments_DataCard1.DCV_Attachfile"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen_Register.Icon_Submit.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen_Register.Icon_Submit.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
-                "module": "Screen_Home",
-                "type": "Screen_Home.icoLogout"
+                "module": "Screen_Register",
+                "type": "Screen_Register.Icon_Submit"
               }
             }
           ],
@@ -74,79 +134,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Screen_Register.Form1.Password_DataCard1.DataCardValue2.AccessibleLabel"
+                  "fullyQualifiedName": "Screen_Register.Icon_Submit.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Screen_Register.Form1.Password_DataCard1.DataCardValue2.AccessibleLabel",
+                  "fullyQualifiedName": "Screen_Register.Icon_Submit.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Screen_Register",
-                "type": "Screen_Register.Form1.Password_DataCard1.DataCardValue2"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Screen_Register.Form1.UserName_DataCard1.DataCardValue3.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Screen_Register.Form1.UserName_DataCard1.DataCardValue3.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Screen_Register",
-                "type": "Screen_Register.Form1.UserName_DataCard1.DataCardValue3"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Screen_Register.Form1.Attachments_DataCard1.DCV_Attachfile.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Screen_Register.Form1.Attachments_DataCard1.DCV_Attachfile.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Screen_Register",
-                "type": "Screen_Register.Form1.Attachments_DataCard1.DCV_Attachfile"
+                "type": "Screen_Register.Icon_Submit"
               }
             }
           ],
@@ -224,19 +224,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Screen_Register.Icon4.AccessibleLabel"
+                  "fullyQualifiedName": "Screen_Home.icoLogout.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Screen_Register.Icon4.AccessibleLabel",
+                  "fullyQualifiedName": "Screen_Home.icoLogout.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Screen_Register",
-                "type": "Screen_Register.Icon4"
+                "module": "Screen_Home",
+                "type": "Screen_Home.icoLogout"
               }
             }
           ],
@@ -254,79 +254,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Screen_Register.Icon4.TabIndex"
+                  "fullyQualifiedName": "Screen_Home.icoLogout.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Screen_Register.Icon4.TabIndex",
+                  "fullyQualifiedName": "Screen_Home.icoLogout.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
-                "module": "Screen_Register",
-                "type": "Screen_Register.Icon4"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Screen_Register.Icon5.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Screen_Register.Icon5.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Screen_Register",
-                "type": "Screen_Register.Icon5"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Screen_Register.Icon5.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Screen_Register.Icon5.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "Screen_Register",
-                "type": "Screen_Register.Icon5"
+                "module": "Screen_Home",
+                "type": "Screen_Home.icoLogout"
               }
             }
           ],

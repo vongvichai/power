@@ -1,7 +1,7 @@
 Screen_Home As screen:
 
     Label1 As label:
-        Fill: =RGBA(246, 88, 16, 1)
+        Fill: =RGBA(0, 18, 107, 1)
         FontWeight: =FontWeight.Bold
         Height: =120
         Text: =""
@@ -35,6 +35,7 @@ Screen_Home As screen:
 
     Label3 As label:
         Align: =Align.Right
+        Color: =RGBA(255, 255, 255, 1)
         FontWeight: =FontWeight.Bold
         Height: =39
         Size: =20
@@ -128,12 +129,12 @@ Screen_Home As screen:
             ZIndex: =15
 
     txt_resgister_now As label:
-        Color: =RGBA(0, 13, 75, 1)
+        Color: =RGBA(255, 255, 255, 1)
         FontWeight: =FontWeight.Bold
         Height: =44
         OnSelect: |-
             =Navigate(Screen_Register,ScreenTransition.CoverRight);
-            NewForm(Form1)
+            NewForm(Form_Register)
         Size: =16
         Text: ="Register Now"
         Width: =174

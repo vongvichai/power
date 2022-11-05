@@ -23,13 +23,13 @@ Screen_Register As screen:
     Label1_3 As label:
         Fill: =RGBA(0, 134, 208, 1)
         FontWeight: =FontWeight.Bold
-        Height: =120
+        Height: =92
         Text: =""
         Width: =1362
-        Y: =648
+        Y: =662
         ZIndex: =5
 
-    Form1 As form:
+    Form_Register As form:
         DataSource: =Users
         DefaultMode: =FormMode.New
         Item: |
@@ -49,7 +49,7 @@ Screen_Register As screen:
             Height: =50
             MaxLength: =DataSourceInfo([@Users], DataSourceInfo.MaxLength, "UserName")
             Required: =false
-            Update: =DataCardValue3.Text
+            Update: =DCV_User.Text
             Width: =800
             X: =0
             Y: =0
@@ -65,7 +65,7 @@ Screen_Register As screen:
                 Y: =10
                 ZIndex: =1
 
-            DataCardValue3 As text:
+            DCV_User As text:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                 Default: =Parent.Default
                 DelayOutput: =true
@@ -94,7 +94,7 @@ Screen_Register As screen:
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardValue3.Y + DataCardValue3.Height
+                Y: =DCV_User.Y + DCV_User.Height
                 ZIndex: =3
 
             StarVisible3 As label:
@@ -241,17 +241,20 @@ Screen_Register As screen:
                 Y: =DataCardKey4.Y
                 ZIndex: =4
 
-    Icon4 As icon.Check:
-        Icon: =Icon.Check
-        OnSelect: =SubmitForm(Form1)
-        X: =466
+    Icon_Submit As icon.CancelBadge:
+        Icon: =Icon.CheckBadge
+        OnSelect: |-
+            =If(DCV_User.Text = LookUp(Users,UserName=DCV_User.Text).UserName
+                , Notify("User name already exist.",Error);
+                , SubmitForm(Form_Register);
+            );
+        X: =530
         Y: =676
         ZIndex: =7
 
-    Icon5 As icon.Cancel:
-        Icon: =Icon.Cancel
-        OnSelect: =Navigate(Screen_Home,ScreenTransition.CoverRight)
-        X: =728
+    Icon_Cancel As icon.CancelBadge:
+        Icon: =Icon.CancelBadge
+        X: =735
         Y: =676
         ZIndex: =8
 
