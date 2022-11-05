@@ -247,6 +247,7 @@ Screen_Register As screen:
 
     Icon5 As icon.Cancel:
         Icon: =Icon.Cancel
+        OnSelect: =Navigate(Screen_Home,ScreenTransition.CoverRight)
         X: =728
         Y: =676
         ZIndex: =8
