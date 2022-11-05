@@ -129,9 +129,13 @@ Screen_Home As screen:
 
     txt_resgister_now As label:
         Color: =RGBA(0, 13, 75, 1)
-        OnSelect: =
+        FontWeight: =FontWeight.Bold
+        Height: =44
+        OnSelect: =Navigate(Screen_Register)
+        Size: =16
         Text: ="Register Now"
-        X: =1197
+        Width: =174
+        X: =1173
         Y: =2
         ZIndex: =17
 

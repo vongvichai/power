@@ -2,6 +2,10 @@ Screen_Register As screen:
 
     Image1 As image:
         Height: =398
+        Image: |-
+            =If(First(DCV_AttachFile.Attachments).Value = Blank(),
+            ,
+            )
         Width: =396
         X: =20
         Y: =204
@@ -10,7 +14,7 @@ Screen_Register As screen:
     Label1_2 As label:
         Fill: =RGBA(246, 88, 16, 1)
         FontWeight: =FontWeight.Bold
-        Height: =120
+        Height: =100
         Text: =""
         Width: =1362
         X: =2
@@ -176,9 +180,9 @@ Screen_Register As screen:
             DisplayMode: =Parent.DisplayMode
             DisplayName: =DataSourceInfo([@Users],DataSourceInfo.DisplayName,"{Attachments}")
             Fill: =RGBA(0, 0, 0, 0)
-            Height: =301
+            Height: =283
             Required: =false
-            Update: =DataCardValue4.Attachments
+            Update: =DCV_AttachFile.Attachments
             Width: =800
             X: =0
             Y: =2
@@ -194,9 +198,10 @@ Screen_Register As screen:
                 Y: =10
                 ZIndex: =1
 
-            DataCardValue4 As attachments:
+            DCV_AttachFile As attachments:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                 DisplayMode: =Parent.DisplayMode
+                Height: =216
                 IsInDataCard: =true
                 Items: =Parent.Default
                 PaddingBottom: =5
@@ -221,7 +226,7 @@ Screen_Register As screen:
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardValue4.Y + DataCardValue4.Height
+                Y: =DCV_AttachFile.Y + DCV_AttachFile.Height
                 ZIndex: =3
 
             StarVisible4 As label:
@@ -233,4 +238,16 @@ Screen_Register As screen:
                 Wrap: =false
                 Y: =DataCardKey4.Y
                 ZIndex: =4
+
+    Icon4 As icon.Check:
+        Icon: =Icon.Check
+        X: =466
+        Y: =676
+        ZIndex: =7
+
+    Icon5 As icon.Cancel:
+        Icon: =Icon.Cancel
+        X: =728
+        Y: =676
+        ZIndex: =8
 
