@@ -2,10 +2,9 @@ Screen_Register As screen:
 
     Image1 As image:
         Height: =398
-        Image: |-
-            =If(First(DCV_AttachFile.Attachments).Value = Blank(),
-            ,
-            )
+        Image: |+
+            =If(First(DCV_Attachfile.Attachments).Value = Blank(), SampleImage, First(DCV_Attachfile.Attachments).Value)
+            
         Width: =396
         X: =20
         Y: =204
@@ -14,7 +13,7 @@ Screen_Register As screen:
     Label1_2 As label:
         Fill: =RGBA(246, 88, 16, 1)
         FontWeight: =FontWeight.Bold
-        Height: =100
+        Height: =122
         Text: =""
         Width: =1362
         X: =2
@@ -182,7 +181,7 @@ Screen_Register As screen:
             Fill: =RGBA(0, 0, 0, 0)
             Height: =283
             Required: =false
-            Update: =DCV_AttachFile.Attachments
+            Update: =DCV_Attachfile.Attachments
             Width: =800
             X: =0
             Y: =2
@@ -198,7 +197,7 @@ Screen_Register As screen:
                 Y: =10
                 ZIndex: =1
 
-            DCV_AttachFile As attachments:
+            DCV_Attachfile As attachments:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                 DisplayMode: =Parent.DisplayMode
                 Height: =216
@@ -226,7 +225,7 @@ Screen_Register As screen:
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DCV_AttachFile.Y + DCV_AttachFile.Height
+                Y: =DCV_Attachfile.Y + DCV_Attachfile.Height
                 ZIndex: =3
 
             StarVisible4 As label:
@@ -241,6 +240,7 @@ Screen_Register As screen:
 
     Icon4 As icon.Check:
         Icon: =Icon.Check
+        OnSelect: =SubmitForm(Form1)
         X: =466
         Y: =676
         ZIndex: =7
