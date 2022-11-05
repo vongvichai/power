@@ -31,6 +31,8 @@ Screen_Register As screen:
 
     Form1 As form:
         DataSource: =Users
+        Item: |
+            =First(Filter(Users, UserName = UserName_DataCard1.Text))
         NumberOfColumns: =1
         X: =530
         Y: =125
