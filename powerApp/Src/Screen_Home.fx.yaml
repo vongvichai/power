@@ -1,4 +1,4 @@
-MainScreen As screen:
+Screen_Home As screen:
 
     Label1 As label:
         Fill: =RGBA(246, 88, 16, 1)
@@ -36,11 +36,11 @@ MainScreen As screen:
     Label3 As label:
         Align: =Align.Right
         FontWeight: =FontWeight.Bold
-        Height: =36
+        Height: =39
         Size: =20
         Text: ="Service Center V. 0.1"
-        Width: =528
-        X: =827
+        Width: =342
+        X: =797
         Y: =7
         ZIndex: =8
 
@@ -126,6 +126,14 @@ MainScreen As screen:
             X: =1060
             Y: =46
             ZIndex: =15
+
+    txt_resgister_now As label:
+        Color: =RGBA(0, 13, 75, 1)
+        OnSelect: =
+        Text: ="Register Now"
+        X: =1197
+        Y: =2
+        ZIndex: =17
 
     grpErrorMsg As group:
         Height: =5
