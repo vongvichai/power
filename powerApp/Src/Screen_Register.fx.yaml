@@ -254,6 +254,7 @@ Screen_Register As screen:
 
     Icon_Cancel As icon.CancelBadge:
         Icon: =Icon.CancelBadge
+        OnSelect: =Navigate(Screen_Home, CoverRight)
         X: =735
         Y: =676
         ZIndex: =8
