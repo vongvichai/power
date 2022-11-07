@@ -203,6 +203,7 @@ Screen_Home As screen:
             OnSelect: |-
                 =Navigate(Screen_Register,ScreenTransition.CoverRight);
                 NewForm(Form_Register)
+            PressedFill: =RGBA(0,0,0,0)
             Text: =""
             Width: =143
             X: =1197
