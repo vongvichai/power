@@ -189,9 +189,7 @@ Screen_Home As screen:
             Color: =RGBA(255, 255, 0, 1)
             FontWeight: =FontWeight.Bold
             Height: =44
-            OnSelect: |-
-                =Navigate(Screen_Register,ScreenTransition.CoverRight);
-                NewForm(Form_Register)
+            OnSelect: =
             Size: =16
             Text: ="Register Now"
             Width: =155
@@ -201,6 +199,9 @@ Screen_Home As screen:
 
         btn_register As button:
             Fill: =RGBA(0, 0, 0, 0)
+            OnSelect: |-
+                =Navigate(Screen_Register,ScreenTransition.CoverRight);
+                NewForm(Form_Register)
             Text: =""
             Width: =143
             X: =1197
