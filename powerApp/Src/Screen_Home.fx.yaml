@@ -199,6 +199,7 @@ Screen_Home As screen:
 
         btn_register As button:
             Fill: =RGBA(0, 0, 0, 0)
+            HoverFill: =ColorFade(RGBA(56, 96, 178, 1), 0%)
             OnSelect: |-
                 =Navigate(Screen_Register,ScreenTransition.CoverRight);
                 NewForm(Form_Register)
