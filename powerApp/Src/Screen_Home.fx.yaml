@@ -129,7 +129,7 @@ Screen_Home As screen:
             ZIndex: =15
 
     txt_resgister_now As label:
-        Color: =RGBA(255, 255, 255, 1)
+        Color: =RGBA(255, 255, 0, 1)
         FontWeight: =FontWeight.Bold
         Height: =44
         OnSelect: |-
