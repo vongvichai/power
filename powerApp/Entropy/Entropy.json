@@ -35,6 +35,7 @@
     "Label1_3": 42,
     "Label2": 16,
     "Label3": 6,
+    "lbl_resgister_now": 5,
     "lblUserName": 8,
     "Password_DataCard1": 31,
     "Rectangle1": 14,
@@ -43,14 +44,13 @@
     "StarVisible2": 32,
     "StarVisible3": 27,
     "StarVisible4": 37,
-    "txt_resgister_now": 5,
     "txtPassword": 13,
     "txtUserName": 12,
     "UserName_DataCard1": 26
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "11/07/2022 06:41:34",
+  "HeaderLastSavedDateTimeUTC": "11/07/2022 06:43:01",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "fd1a3bb7-2f1f-4485-933e-bb97af63c6d2": "\"/providers/microsoft.powerapps/apis/shared_sharepointonline/connections/be1e49f480454a01a33402ffd826599a\""
@@ -72,7 +72,7 @@
   "OrderGroupControls": {
     "grp_register": {
       "btn_register": 0,
-      "txt_resgister_now": 1
+      "lbl_resgister_now": 1
     },
     "grpErrorMsg": {
       "btnClose": 3,
@@ -137,6 +137,7 @@
     "Label1_3": 37,
     "Label2": 15,
     "Label3": 2,
+    "lbl_resgister_now": 1,
     "lblUserName": 4,
     "Password_DataCard1": 26,
     "Rectangle1": 12,
@@ -145,7 +146,6 @@
     "StarVisible2": 27,
     "StarVisible3": 22,
     "StarVisible4": 32,
-    "txt_resgister_now": 1,
     "txtPassword": 11,
     "txtUserName": 10,
     "UserName_DataCard1": 21

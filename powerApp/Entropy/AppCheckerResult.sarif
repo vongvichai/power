@@ -14,19 +14,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Screen_Home.txt_resgister_now.FocusedBorderThickness"
+                  "fullyQualifiedName": "Screen_Home.lbl_resgister_now.FocusedBorderThickness"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Screen_Home.txt_resgister_now.FocusedBorderThickness",
+                  "fullyQualifiedName": "Screen_Home.lbl_resgister_now.FocusedBorderThickness",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "FocusedBorderThickness",
                 "module": "Screen_Home",
-                "type": "Screen_Home.txt_resgister_now"
+                "type": "Screen_Home.lbl_resgister_now"
               }
             }
           ],
@@ -44,19 +44,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Screen_Home.txt_resgister_now.TabIndex"
+                  "fullyQualifiedName": "Screen_Home.lbl_resgister_now.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Screen_Home.txt_resgister_now.TabIndex",
+                  "fullyQualifiedName": "Screen_Home.lbl_resgister_now.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
                 "module": "Screen_Home",
-                "type": "Screen_Home.txt_resgister_now"
+                "type": "Screen_Home.lbl_resgister_now"
               }
             }
           ],

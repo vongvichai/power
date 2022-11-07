@@ -116,7 +116,7 @@ Screen_Home As screen:
             Visible: =!showGrpLogin
             X: =1284
             Y: =46
-            ZIndex: =14
+            ZIndex: =13
 
         lblUserName As label:
             Height: =63
@@ -126,7 +126,7 @@ Screen_Home As screen:
             Width: =166
             X: =1060
             Y: =46
-            ZIndex: =15
+            ZIndex: =14
 
     grpErrorMsg As group:
         Height: =5
@@ -176,7 +176,7 @@ Screen_Home As screen:
             Width: =113
             X: =643
             Y: =467
-            ZIndex: =16
+            ZIndex: =15
 
     grp_register As group:
         Height: =5
@@ -185,7 +185,7 @@ Screen_Home As screen:
         Y: =40
         ZIndex: =19
 
-        txt_resgister_now As label:
+        lbl_resgister_now As label:
             Color: =RGBA(255, 255, 0, 1)
             FontWeight: =FontWeight.Bold
             Height: =44
@@ -197,13 +197,13 @@ Screen_Home As screen:
             Width: =155
             X: =1191
             Y: =2
-            ZIndex: =17
+            ZIndex: =16
 
         btn_register As button:
             Fill: =RGBA(0, 0, 0, 0)
-            Text: ="Button"
+            Text: =""
             Width: =143
             X: =1197
             Y: =6
-            ZIndex: =18
+            ZIndex: =17
 
