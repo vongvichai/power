@@ -1,7 +1,7 @@
 Screen_Home As screen:
 
     Label1 As label:
-        Fill: =RGBA(0, 18, 107, 1)
+        Fill: =RGBA(250, 155, 112, 1)
         FontWeight: =FontWeight.Bold
         Height: =120
         Text: =""
@@ -128,20 +128,6 @@ Screen_Home As screen:
             Y: =46
             ZIndex: =15
 
-    txt_resgister_now As label:
-        Color: =RGBA(255, 255, 0, 1)
-        FontWeight: =FontWeight.Bold
-        Height: =44
-        OnSelect: |-
-            =Navigate(Screen_Register,ScreenTransition.CoverRight);
-            NewForm(Form_Register)
-        Size: =16
-        Text: ="Register Now"
-        Width: =174
-        X: =1173
-        Y: =2
-        ZIndex: =17
-
     grpErrorMsg As group:
         Height: =5
         Width: =5
@@ -191,4 +177,33 @@ Screen_Home As screen:
             X: =643
             Y: =467
             ZIndex: =16
+
+    grp_register As group:
+        Height: =5
+        Width: =5
+        X: =40
+        Y: =40
+        ZIndex: =19
+
+        txt_resgister_now As label:
+            Color: =RGBA(255, 255, 0, 1)
+            FontWeight: =FontWeight.Bold
+            Height: =44
+            OnSelect: |-
+                =Navigate(Screen_Register,ScreenTransition.CoverRight);
+                NewForm(Form_Register)
+            Size: =16
+            Text: ="Register Now"
+            Width: =155
+            X: =1191
+            Y: =2
+            ZIndex: =17
+
+        btn_register As button:
+            Fill: =RGBA(0, 0, 0, 0)
+            Text: ="Button"
+            Width: =143
+            X: =1197
+            Y: =6
+            ZIndex: =18
 

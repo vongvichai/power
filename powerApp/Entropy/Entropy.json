@@ -4,6 +4,7 @@
   "ControlUniqueIds": {
     "App": 1,
     "Attachments_DataCard1": 36,
+    "btn_register": 45,
     "btnClose": 18,
     "btnLogin": 11,
     "DataCardKey2": 33,
@@ -16,6 +17,7 @@
     "ErrorMessage3": 30,
     "ErrorMessage4": 40,
     "Form_Register": 25,
+    "grp_register": 46,
     "grpErrorMsg": 21,
     "grpLogin": 20,
     "grpLogout": 22,
@@ -48,7 +50,7 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "11/07/2022 03:24:38",
+  "HeaderLastSavedDateTimeUTC": "11/07/2022 06:41:34",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "fd1a3bb7-2f1f-4485-933e-bb97af63c6d2": "\"/providers/microsoft.powerapps/apis/shared_sharepointonline/connections/be1e49f480454a01a33402ffd826599a\""
@@ -68,6 +70,10 @@
     "Users": 0
   },
   "OrderGroupControls": {
+    "grp_register": {
+      "btn_register": 0,
+      "txt_resgister_now": 1
+    },
     "grpErrorMsg": {
       "btnClose": 3,
       "Icon2": 2,
@@ -89,10 +95,10 @@
   "OrderTemplate": {},
   "OrderXMLTemplate": {
     "attachments": 7,
-    "button": 3,
+    "button": 1,
     "form": 6,
-    "icon": 2,
-    "image": 1,
+    "icon": 3,
+    "image": 2,
     "label": 0,
     "rectangle": 5,
     "text": 4
@@ -100,6 +106,7 @@
   "PublishOrderIndices": {
     "App": 0,
     "Attachments_DataCard1": 31,
+    "btn_register": 0,
     "btnClose": 17,
     "btnLogin": 9,
     "DataCardKey2": 28,
@@ -112,6 +119,7 @@
     "ErrorMessage3": 25,
     "ErrorMessage4": 35,
     "Form_Register": 20,
+    "grp_register": 0,
     "grpErrorMsg": 13,
     "grpLogin": 8,
     "grpLogout": 5,
